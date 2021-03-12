@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(158, 198, 214);
+    font-family: 'Roboto', sans-serif;
+    color: cornsilk;
+}
+.container{
+    max-width: 1000px;
+    background-color: rgb(16, 16, 24);
+    margin: 0 auto;
+    padding: 40px ;
+}
+
+.profile-image{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+    
+}
+
+.header-bio{
+    float: left;
+    padding: 10px;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+h1,h2,h3,h4,h5,h6{
+    color:thistle;
+
+}
+.header-contact{
+    float: right;
+    padding-right: 100px;
+    padding-top: 16px;
+}
+
+.header-profile {
+    padding-left: 130px;
+    padding-top: 10px;
+}
+.header-contact a{
+text-decoration: none;
+color: rgb(52, 86, 150);
+font-weight: bold;
+}
+.header-contact a:hover{
+text-decoration: underline;
+color: tomato;
+}
+
+
+.div-clear{
+
+    clear: both;
+
+}
+hr{
+    border: solid white 4px;
+    width: 80%;
+    margin: 20px auto;
+    border-bottom: none;
+
+}
